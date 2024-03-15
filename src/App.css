@@ -1,0 +1,100 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+  font-family: 'Plus Jakarta Display', sans-serif;
+}
+
+.navbar-brand h4{
+  font-size: calc(1.275rem + .3vw);
+  font-weight: 900;
+  color: #302cff;
+}
+.pill-button{
+  background-color: #302cff;
+  border: none;
+  color: white;
+  border-radius:10px ;
+  padding: 16px 22px;
+  box-shadow: 0 2px 8px 0 rgba(48, 44, 255, 0.1);
+  text-align: center;
+  font-weight: bold;
+  transition: width 2s;
+  width: 100%;
+}
+
+
+.card{
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 rgba(23, 20, 194, 0.1);
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  transition: width 1s;
+  margin-bottom: 3vh;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.circle {
+  width: 150px; /* Adjust the width of the circle */
+  height: 150px; /* Adjust the height of the circle */
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle-content {
+  font-size: 20px;
+}
+
+.circle:before,
+.circle:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 10px solid #fff6a3
+  ; /* Adjust the border width */
+}
+
+/* Set the border colors for different sections */
+
+
+
+.circle-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+}
+.asset-expense-other {
+  margin: 10px 0;
+  display: flex;
+}
+
+.box {
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+}
+
+.asset { background-color: #fff6a3; }
+.expense { background-color: #655ade; }
+.other { background-color: #98e5d2
+  ; }
