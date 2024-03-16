@@ -6,6 +6,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // Import Bootstrap JSimport
 import Dashboard from './pages/Dashboard';
 import Bill from './pages/Bill';
 import AllBills from './pages/AllBills';
+import Transaction from './pages/Transaction';
 
 
 
@@ -15,8 +16,9 @@ function App() {
       <main>
           <Switch>
             <Route exact path="/" component={Dashboard} />         
-            <Route exact path="/AllBills" component={AllBills} />         
+            <Route exact path="/allBills" component={AllBills} />         
             <Route exact path="/bill" component={Bill} />         
+            <Route exact path="/transaction" component={Transaction} />         
           </Switch>
       </main>
     </Router>  
