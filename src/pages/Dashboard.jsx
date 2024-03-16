@@ -4,7 +4,7 @@ import Chart from './Chart';
 import { BiReceipt, BiCoin } from 'react-icons/bi';
 import { CashCoin, PiggyBank, GraphUpArrow, Receipt} from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
-import Bills from './Bills';
+import AllBills from './AllBills';
 
 
 function Dashboard() {
@@ -33,7 +33,7 @@ function Dashboard() {
                       </div>
 
                       <div className="col-md-3 col-6">
-                        <Link to="/bills" style={{ textDecoration: 'none', color: 'black'}}>
+                        <Link to="/bill" style={{ textDecoration: 'none', color: 'black'}}>
                           <div data-aos="fade-up" data-aos-delay="100" className="card">
                               <h6>Bills</h6>
                               <div className='d-flex justify-content-between align-items-center'>
@@ -96,7 +96,8 @@ function Dashboard() {
 
                   <h6 className='text-muted'>Overview</h6>
 
-                  <Bills showHeader={false} />
+                  <AllBills showHeader={false} showTitle={false} />
+
               </div>
 
 

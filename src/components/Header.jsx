@@ -1,6 +1,7 @@
 import React from 'react';
 import { BiBell } from 'react-icons/bi';
 import softlife from '../assets/softlife.png'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 
 
 
@@ -9,9 +10,9 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{ margin: "0 2vh"}}>
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="/">
             <h4>PrestoBill</h4>
-          </a>
+          </Link>
 
           <button
             className="navbar-toggler"
@@ -28,7 +29,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" href="#">Home</a>
+                <a className="nav-link" href="">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Expenses</a>
