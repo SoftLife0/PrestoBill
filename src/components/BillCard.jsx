@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import React from 'react';
+import { Link } from 'react-router-dom';
 import { Receipt } from 'react-bootstrap-icons';
 
-function BillCard({ to, category, title, amountPaid, totalAmount, progress }) {
+function BillCard({ to, title, amountPaid, totalAmount, progress }) {
   return (
     <div className="col-md-6">
       <Link to={to} style={{ textDecoration: 'none', color: 'black' }}>
@@ -10,7 +10,7 @@ function BillCard({ to, category, title, amountPaid, totalAmount, progress }) {
           <div className='d-flex justify-content-between align-items-center'>
             <div className='d-flex justify-content-between align-items-center'>
               <div className="box expense" style={{ margin: '0' }}></div>
-              <p className='text-muted mb-0' style={{ marginLeft: '3px', fontSize: '13px' }}>{category}</p>
+              <p className='text-muted mb-0' style={{ marginLeft: '3px', fontSize: '13px' }}>Category: Bill</p>
             </div>
             <Receipt style={{ fontSize: "15px" }} />
           </div>
@@ -21,7 +21,7 @@ function BillCard({ to, category, title, amountPaid, totalAmount, progress }) {
               <small className="text-muted">₵{totalAmount}</small>
             </div>
             <div className="progress" style={{ height: '5px' }}>
-              <div className="progress-bar" role="progressbar" style={{ width: progress }} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              <div className="progress-bar" role="progressbar" style={{ width: progress }} aria-valuenow={progress} aria-valuemin="0" aria-valuemax="100"></div>
             </div>
             <div className="d-flex justify-content-between">
               <small className="text-muted">{progress}</small>
@@ -34,4 +34,4 @@ function BillCard({ to, category, title, amountPaid, totalAmount, progress }) {
   )
 }
 
-export default BillCard
+export default BillCard;
