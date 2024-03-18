@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { PiggyBank } from 'react-bootstrap-icons';
 import Header from '../components/Header';
+import AddExpenses from './AddExpenses';
 
 
 function Bills() {
@@ -15,9 +16,9 @@ function Bills() {
                         <h4>Iklina Bill</h4>
                         <h6 className='text-muted' style={{fontWeight:'500'}}>Dashboard</h6>
                     </div>
-                    <a href="#">
+                    <Link to="/addExpense">
                         <button className='pill-button'>Add New Expense</button>
-                    </a>
+                    </Link>
                 </div>
 
                 <br />

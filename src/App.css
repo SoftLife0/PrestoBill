@@ -29,7 +29,6 @@ body {
   width: 100%;
 }
 
-
 .card{
   border-radius: 20px;
   box-shadow: 0 2px 8px 0 rgba(23, 20, 194, 0.1);
@@ -38,6 +37,32 @@ body {
   width: 100%;
   transition: width 1s;
   margin-bottom: 3vh;
+}
+
+.defaultCard{
+  border-radius: 20px;
+  box-shadow: 0 2px 8px 0 rgba(13, 10, 44, 0.06), 0 60px 80px 0 rgba(74, 58, 255, 0.02), 0 40px 50px 0 rgba(74, 58, 255, 0.05);
+  cursor: pointer;
+  padding: 30px;
+  width: 100%;
+  transition: width 1s;
+  margin-bottom: 3vh;
+}
+
+.ellipse{
+  background-color: rgb(48, 44, 255); 
+  border-radius:rgb(48, 44, 255);
+  background-color: #080685;
+  justify-content: space-around; 
+  align-items: cåenter; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  display: flex; 
+  height: 100px;
+  border: none; 
+  width: 100px;
+  margin: auto; 
+  object-fit: cover;
 }
 
 .circle-container {
