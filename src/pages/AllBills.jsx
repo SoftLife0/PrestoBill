@@ -42,3 +42,13 @@ function AllBills({ showHeader = true, showTitle = true }) {
 }
 
 export default AllBills;
+
+
+// <div className="row">
+//             <BillCard
+//               to="/bill"
+//               title="Iklina"
+//               amountPaid={0}
+//               totalAmount={867}
+//               progress="30%"
+//             />
