@@ -7,11 +7,11 @@ function AllBills({ showHeader = true, showTitle = true }) {
 
   useEffect(() => {
     // Fetch data from the API endpoint
-    fetch('http://prestoghana.com/api/bills/1')
+    fetch('http://prestoghana.com/api/bills')
       .then(response => response.json())
       .then(data => {
         // Update state with the fetched data
-        setBills([data]);
+        setBills(data);
       })
       .catch(error => console.error('Error fetching data:', error));
   }, []);
