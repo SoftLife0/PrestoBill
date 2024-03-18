@@ -56,20 +56,7 @@ function Dashboard() {
                         </Link>
                       </div>
 
-                      {/* 
-                      
-
-                      <div className="col-md-6 col-6">
-                        <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
-                          <div data-aos="fade-up" data-aos-delay="100" className="card" style={{background:'#f1f6ff'}}>
-                              <h6>Sender Id</h6>
-                              <div className='d-flex justify-content-between align-items-center'>
-                                <BiReceipt style={{ fontSize: "25px" }} />
-                                <h2 style={{ fontWeight: 700 }}>0</h2>
-                            </div>
-                          </div>
-                        </Link>
-                      </div> */}
+                    
                   </div>
 
 
