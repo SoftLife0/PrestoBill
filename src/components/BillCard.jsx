@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
 import { Receipt } from 'react-bootstrap-icons';
 
-function BillCard({ to, title, amountPaid, totalAmount, progress }) {
+function BillCard({ to, category, title, amountPaid, totalAmount, progress }) {
   return (
     <div className="col-md-6">
       <Link to={to} style={{ textDecoration: 'none', color: 'black' }}>
@@ -10,7 +10,7 @@ function BillCard({ to, title, amountPaid, totalAmount, progress }) {
           <div className='d-flex justify-content-between align-items-center'>
             <div className='d-flex justify-content-between align-items-center'>
               <div className="box expense" style={{ margin: '0' }}></div>
-              <p className='text-muted mb-0' style={{ marginLeft: '3px', fontSize: '13px' }}>{title}</p>
+              <p className='text-muted mb-0' style={{ marginLeft: '3px', fontSize: '13px' }}>{category}</p>
             </div>
             <Receipt style={{ fontSize: "15px" }} />
           </div>

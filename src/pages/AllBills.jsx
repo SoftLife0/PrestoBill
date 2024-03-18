@@ -17,6 +17,7 @@ function AllBills({showHeader = true, showTitle = true}) {
           <div className="row">
             <BillCard
               to="/bill"
+              category="Bill"
               title="Iklina"
               amountPaid={0}
               totalAmount={867}
@@ -24,6 +25,7 @@ function AllBills({showHeader = true, showTitle = true}) {
             />
             <BillCard
               to="#"
+              category="Bill"
               title="AWS Server Bill"
               amountPaid={0}
               totalAmount={300}
@@ -31,6 +33,7 @@ function AllBills({showHeader = true, showTitle = true}) {
             />
             <BillCard
               to="#"
+              category="Bill"
               title="Transportation"
               amountPaid={0}
               totalAmount={500}
@@ -38,6 +41,7 @@ function AllBills({showHeader = true, showTitle = true}) {
             />
             <BillCard
               to="#"
+              category="Bill"
               title="Others"
               amountPaid={0}
               totalAmount={8000}
