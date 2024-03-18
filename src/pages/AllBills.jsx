@@ -17,8 +17,8 @@ function AllBills({showHeader = true, showTitle = true}) {
                 )}
                 <div className="row">
                     <div className="col-md-6">
-                        <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
-                            <div data-aos="fade-up" className="card" style={{padding:'10px 30px'}}>
+                        <Link to="/bill" style={{ textDecoration: 'none', color: 'black'}}>
+                            <div data-aos="fade-up" className="card" style={{padding:'12px 30px'}}>
                                 <div className='d-flex justify-content-between align-items-center'>
                                     <div className='d-flex justify-content-between align-items-center'>
                                         <div className="box expense" style={{margin:'0'}}></div>

@@ -36,33 +36,30 @@ function Transaction() {
             <br />
 
             <table className="table">
-            <thead>
-                <tr>
-                    <th scope="col">Date</th>
-                    {/* <th scope="col">Title</th> */}
-                    <th scope="col">Amount ₵</th>
-                    <th scope="col">Reference</th>
-                    <th scope="col">Status</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td scope="row">16/04/2024</td>
-                    {/* <td>Iklina</td> */}
-                    <td>35</td>
-                    <td>Iklina</td>
-                    <td>Successful</td>
-                </tr>
-                <tr>
-                    <td scope="row">16/04/2024</td>
-                    {/* <td>Iklina</td> */}
-                    <td>425</td>
-                    <td>AWS</td>
-                    <td>Pending</td>
-                </tr>
-                
-            </tbody>
-        </table>
+                <thead>
+                    <tr>
+                        <th scope="col">Date</th>
+                        <th scope="col">Reference</th>
+                        <th scope="col">Amount ₵</th>
+                        <th scope="col">Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">16/04/2024</td>
+                        <td>Iklina</td>
+                        <td>35</td>
+                        <td>Successful</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">16/04/2024</td>
+                        <td>AWS</td>
+                        <td>425</td>
+                        <td>Pending</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
         </section>
     </main>
   )

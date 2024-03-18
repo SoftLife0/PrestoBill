@@ -1,6 +1,6 @@
 import React from 'react'
-import { Receipt} from 'react-bootstrap-icons';
 import { Link } from 'react-router-dom/cjs/react-router-dom.min';
+import { PiggyBank } from 'react-bootstrap-icons';
 import Header from '../components/Header';
 
 
@@ -19,9 +19,25 @@ function Bills() {
                         <button className='pill-button'>Add New Expense</button>
                     </a>
                 </div>
-                <div className='row'>
 
-                </div>    
+                <br />
+                <div className='row'>
+                    <div className="col-md-7">
+                        <div className="row">
+                            <div className="col-md-6">
+                            <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
+                                <div data-aos="fade-up" className="card">
+                                    <h6>Deposit</h6>
+                                    <div className='d-flex justify-content-between align-items-center'>
+                                        <PiggyBank style={{ fontSize: "25px" }} />
+                                        <h2 style={{ fontWeight: 700 }}>₵1200</h2>
+                                    </div>
+                                </div>
+                            </Link>
+                            </div>
+                        </div>
+                    </div>  
+                </div>  
             </div>  
         </section>
     </main>
