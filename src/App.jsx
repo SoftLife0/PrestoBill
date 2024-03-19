@@ -8,6 +8,7 @@ import Bill from './pages/Bill';
 import AllBills from './pages/AllBills';
 import Transaction from './pages/Transaction';
 import AddExpenses from './pages/AddExpenses';
+import Landing from './pages/Landing';
 
 
 
@@ -16,7 +17,8 @@ function App() {
     <Router>
       <main>
           <Switch>
-            <Route exact path="/" component={Dashboard} />         
+            <Route exact path="/" component={Landing} />         
+            <Route exact path="/dashboard" component={Dashboard} />         
             <Route exact path="/allBills" component={AllBills} />         
             <Route exact path="/bill" component={Bill} />         
             <Route exact path="/transaction" component={Transaction} />         

@@ -6,7 +6,7 @@ import { Button } from 'react-bootstrap';
 function Navbar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light" style={{margin:'0 2vh'}}>
       <div className="container-fluid">
         <Link className="navbar-brand" to="/">
             <h4>PrestoBill</h4>

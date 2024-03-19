@@ -1,21 +1,22 @@
 import React from 'react'
 import LandingHeader from '../components/LandigHeader'
-import herobg from '../assets/bg.png'
+import herobg from '../assets/hero.png'
+import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 
 function Landing() {
   return (
     <div>
       <LandingHeader />
 
-      <section>
+      <section style={{marginTop:'7vh'}}>
         <div className="container">
         <div className="row">
       <div className="col-md-6">
         <br />
-        <h6 data-aos="fade-up" data-aos-delay="200" className="support">Presto Solutions</h6>
-        <h1 data-aos="fade-up" data-aos-delay="400" className="header" style={{ fontSize: '45px' }}>Got bills for pay? <br /> We've got you!</h1>
+        <h6 style={{color:'#302cff'}}>Presto Solutions</h6>
+        <h1 style={{ fontSize: '45px' }}>Got bills for pay? <br /> We've got you!</h1>
         <br />
-        <h6 data-aos="fade-up" data-aos-delay="600" style={{ color: 'rgba(0, 0, 0, 0.568)' }} className="support"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deleniti veritatis modi voluptates, optio maxime consequatur sapiente magnam. Ipsam maxime totam incidunt autem ea vel dicta maiores perferendis similique deserunt.!</h6>
+        <h6 style={{ color: 'rgba(0, 0, 0, 0.568)' }} className="support"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit deleniti veritatis modi voluptates, optio maxime consequatur sapiente magnam. Ipsam maxime totam incidunt autem ea vel dicta maiores perferendis similique deserunt.!</h6>
         <br />
         <div className="row" data-aos="fade-up" data-aos-delay="800">
           <div className="col-md-6" style={{ marginBottom: '2vh' }}>
