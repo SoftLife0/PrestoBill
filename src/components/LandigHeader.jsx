@@ -25,7 +25,7 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-                <Link to="" className='pill-button'>
+                <Link to="" className='pill-button' style={{ textDecoration: 'none'}}>
                     Dashboard
                 </Link>
             </li>
