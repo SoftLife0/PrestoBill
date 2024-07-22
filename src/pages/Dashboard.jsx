@@ -18,9 +18,9 @@ function Dashboard() {
           <br />
 
           <div className="row">
-              <div className="col-md-8">
+              <div className="col-lg-8">
                   <div className="row">
-                      <div className="col-md-6">
+                      <div className="col-lg-6">
                       <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
                         <div data-aos="fade-up" className="card">
                             <h6>Deposit</h6>
@@ -32,7 +32,7 @@ function Dashboard() {
                       </Link>
                       </div>
 
-                      <div className="col-md-3 col-6">
+                      <div className="col-lg-3 col-6">
                         <Link to="/allBills" style={{ textDecoration: 'none', color: 'black'}}>
                           <div data-aos="fade-up" data-aos-delay="100" className="card">
                               <h6>Bills</h6>
@@ -44,7 +44,7 @@ function Dashboard() {
                         </Link>
                       </div>
 
-                      <div className="col-md-3 col-6">
+                      <div className="col-lg-3 col-6">
                         <Link to="/transaction" style={{ textDecoration: 'none', color: 'black'}}>
                           <div data-aos="fade-up" data-aos-delay="100" className="card">
                               <h6>Transactions</h6>
@@ -67,7 +67,7 @@ function Dashboard() {
               </div>
 
 
-              <div className="col-md-4">
+              <div className="col-lg-4">
                 <Chart />
               </div>
 

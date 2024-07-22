@@ -24,9 +24,17 @@ function AddExpenses() {
                     <h4 style={{ textAlign: 'center', marginTop: '5vh' }}>Expense Entry Page</h4>
                     <p style={{ textAlign: 'center', width: '100%' }}>Kindlt fill this form </p>
 
-
+                    <FloatingLabel controlId="floatingSelect m-3" label="Select a Vendor">
+                      <Form.Select aria-label="Floating label select example">
+                        <option>select</option>
+                        <option value="1">Iklina</option>
+                        <option value="2">Mohammed</option>
+                        <option value="3">Kelewele</option>
+                      </Form.Select>
+                    </FloatingLabel>
+                    <br />
                     <FloatingLabel controlId="floatingPassword" label="Amount">
-                      <Form.Control type="number" placeholder="amount" />
+                      <Form.Control type="text" placeholder="amount" />
                     </FloatingLabel>
                     <br />
                     <FloatingLabel controlId="floatingPassword" label="Reference">
