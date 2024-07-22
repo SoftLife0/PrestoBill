@@ -18,7 +18,7 @@ function Dashboard() {
           <br />
 
           <div className="row">
-              <div className="col-md-7">
+              <div className="col-md-8">
                   <div className="row">
                       <div className="col-md-6">
                       <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
@@ -67,7 +67,7 @@ function Dashboard() {
               </div>
 
 
-              <div className="col-md-5">
+              <div className="col-md-4">
                 <Chart />
               </div>
 
