@@ -30,6 +30,7 @@ function AddExpenses() {
                         <option value="1">Iklina</option>
                         <option value="2">Mohammed</option>
                         <option value="3">Kelewele</option>
+                        <option value="3">Hamidu</option>
                       </Form.Select>
                     </FloatingLabel>
                     <br />
