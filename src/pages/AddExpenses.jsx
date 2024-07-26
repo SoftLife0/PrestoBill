@@ -26,11 +26,9 @@ function AddExpenses() {
 
                     <FloatingLabel controlId="floatingSelect m-3" label="Select a Vendor">
                       <Form.Select aria-label="Floating label select example">
-                        <option>select</option>
+                        <option>--select vendor--</option>
                         <option value="1">Iklina</option>
                         <option value="2">Mohammed</option>
-                        <option value="3">Kelewele</option>
-                        <option value="3">Hamidu</option>
                       </Form.Select>
                     </FloatingLabel>
                     <br />
