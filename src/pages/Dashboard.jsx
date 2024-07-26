@@ -14,13 +14,13 @@ function Dashboard() {
       <section style={{marginTop:"5vh"}}>
         <div className="container">
 
-          <h5 className='text-muted' style={{fontWeight:"500"}}>Welcome Back, Kweku!</h5>
+          <h5 className='text-muted' style={{fontWeight:"500"}}>Welcome Kweku!</h5>
           <br />
 
           <div className="row">
               <div className="col-lg-8">
                   <div className="row">
-                      <div className="col-lg-6">
+                      <div className="col-lg-5">
                       <Link to="#" style={{ textDecoration: 'none', color: 'black'}}>
                         <div data-aos="fade-up" className="card">
                             <h6>Deposit</h6>
@@ -60,7 +60,7 @@ function Dashboard() {
                   </div>
 
 
-                  <h6 className='text-muted'>Overview</h6>
+                  <h6 className='text-muted'>History</h6>
 
                   <AllBills showHeader={false} showTitle={false} />
 
